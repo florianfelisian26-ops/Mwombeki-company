@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Florian Digital Agency</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<style>
+:root{
+  --bg:#050b1e;
+  --card:#0c1636;
+  --accent:#4f9cff;
+  --accent2:#2ee6a6;
+  --text:#e8ecff;
+  --muted:#9aa4ff;
+}
+*{box-sizing:border-box}
+body{
+  margin:0;
+  font-family:'Poppins',sans-serif;
+  background:radial-gradient(circle at top,#0a1350,#050b1e 60%);
+  color:var(--text);
+  line-height:1.6;
+}
+header{
+  min-height:100vh;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  text-align:center;
+  padding:40px 20px;
+}
+.hero{
+  max-width:900px;
+}
+.hero span{
+  color:var(--accent2);
+  font-weight:600;
+  letter-spacing:1px;
+}
+.hero h1{
+  font-size:clamp(42px,6vw,68px);
+  margin:20px 0;
+  font-weight:700;
+}
+.hero p{
+  font-size:18px;
+  color:var(--muted);
+  max-width:700px;
+  margin:auto;
+}
+.hero .cta{
+  margin-top:35px;
+}
+.hero a{
+  text-decoration:none;
+  padding:16px 30px;
+  border-radius:50px;
+  margin:10px;
+  display:inline-block;
+  font-weight:600;
+}
+.primary{
+  background:linear-gradient(135deg,var(--accent),var(--accent2));
+  color:#050b1e;
+}
+.secondary{
+  border:1px solid var(--accent);
+  color:var(--accent);
+}
+section{
+  padding:90px 20px;
+}
+.container{
+  max-width:1200px;
+  margin:auto;
+}
+.grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+  gap:35px;
+}
+.card{
+  background:linear-gradient(180deg,#0c1636,#08102b);
+  border-radius:24px;
+  padding:35px;
+  box-shadow:0 25px 60px rgba(0,0,0,.4);
+  transition:.4s;
+}
+.card:hover{
+  transform:translateY(-8px);
+}
+.card h3{
+  margin-top:0;
+  color:var(--accent2);
+}
+.card p{
+  color:var(--muted);
+}
+footer{
+  padding:40px 20px;
+  text-align:center;
+  background:#020617;
+  color:#9aa4ff;
+}
+footer b{color:#fff}
+</style>
+</head>
+
+<body>
+
+<header>
+  <div class="hero">
+    <span>INTERNATIONAL DIGITAL AGENCY</span>
+    <h1>Building Premium Digital Products That Scale</h1>
+    <p>
+      Florian Digital Agency helps businesses and individuals grow online 
+      through world-class websites, automation and consulting.
+    </p>
+
+    <div class="cta">
+      <a class="primary" href="#services">Start a Project</a>
+      <a class="secondary" href="#contact">Contact Us</a>
+    </div>
+  </div>
+</header>
+
+<section id="services">
+  <div class="container">
+    <div class="grid">
+
+      <div class="card">
+        <h3>Web Development</h3>
+        <p>High-quality, responsive and scalable websites built with modern standards.</p>
+      </div>
+
+      <div class="card">
+        <h3>AI & Automation</h3>
+        <p>Smart systems that automate workflows and improve productivity.</p>
+      </div>
+
+      <div class="card">
+        <h3>Digital Consulting</h3>
+        <p>Professional guidance for students, startups and small businesses.</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section id="contact">
+  <div class="container">
+    <div class="grid">
+
+      <div class="card">
+        <h3>Contact</h3>
+        <p><b>Email:</b> florianfelisian26@gmail.com</p>
+        <p><b>WhatsApp:</b> +255 787 504 216</p>
+      </div>
+
+      <div class="card">
+        <h3>Payments</h3>
+        <p><b>Mobile Money:</b> 32010047257</p>
+        <p><b>CRDB:</b> 0152942505500</p>
+        <p><b>Name:</b> Florian</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<footer>
+  <p>© 2026 <b>Florian Digital Agency</b>. All rights reserved.</p>
+  <p>Crafted with excellence by Florian</p>
+</footer>
+
+</body>
+</html>
